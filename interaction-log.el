@@ -258,7 +258,7 @@ neglected.")
 
 
 ;;;; User commands
-
+;;;###autoload
 (define-minor-mode interaction-log-mode
   "Global minor mode logging keys, commands, file loads and messages.
 Logged stuff goes to the *Emacs Log* buffer."
